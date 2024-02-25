@@ -39,7 +39,7 @@ public class FallbackDfa {
 
 		acceptStates.addAll(List.of(fdfaArray[4].split(";")));
 
-		//System.out.println(states + "  " + alphabet + "  " + transitions + "  " + startState + "  " + acceptStates);
+		System.out.println(states + "  " + alphabet + "  " + transitions + "  " + startState + "  " + acceptStates);
 	}
 
 	/**
