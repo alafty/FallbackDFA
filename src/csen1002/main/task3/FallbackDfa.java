@@ -3,6 +3,7 @@ package csen1002.main.task3;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Write your info here
@@ -19,6 +20,8 @@ public class FallbackDfa {
 	ArrayList<String> transitions = new ArrayList<>();
 	String startState;
 	ArrayList<String> acceptStates = new ArrayList<>();
+
+	ArrayList<String> lexq = new ArrayList<>();
 
 	/**
 	 * Constructs a Fallback DFA
@@ -49,7 +52,13 @@ public class FallbackDfa {
 	 *         string representation follows the one in the task description
 	 */
 	public String run(String input) {
-		// TODO Auto-generated method stub
+		int L = 0;
+		int R = 0;
+		Stack<String> stack = new Stack<>();
+		String currentState = startState;
+
+
+
 		return null;
 	}
 
