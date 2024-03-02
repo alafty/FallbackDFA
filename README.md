@@ -1,13 +1,8 @@
-```markdown
 # FallbackDFA
-
-This repository contains Java code for simulating a Fallback Deterministic Finite Automaton (DFA) with lexing functionality.
 
 ## Description
 
 The Fallback DFA is a modified version of a DFA that allows for lexing (tokenizing) input strings. It reads a formatted string representation of the DFA and simulates its behavior on input strings to tokenize them. The tokenization process involves recognizing patterns in the input string based on the DFA's states and transitions.
-
-## Usage
 
 ### Installation
 
@@ -43,13 +38,3 @@ state1;state2;state3#symbol1;symbol2;symbol3#state1,symbol1,state2;state2,symbol
 
 The `run()` method returns a formatted string representation of the list of tokens. The string representation follows the one described in the input format.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to customize it further based on your specific project details and requirements!
