@@ -38,3 +38,6 @@ state1;state2;state3#symbol1;symbol2;symbol3#state1,symbol1,state2;state2,symbol
 
 The `run()` method returns a formatted string representation of the list of tokens. The string representation follows the one described in the input format.
 
+## Authors
+
+- [Mohamed El-Alafty](https://github.com/alafty)
